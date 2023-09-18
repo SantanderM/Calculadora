@@ -1,0 +1,55 @@
+/* Estilos para el fondo y el tipo de letra */
+body {
+    background-color: #f2f2f2; /* Color de fondo gris claro */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+}
+
+.container {
+    background-color: rgb(255, 255, 255); /* Fondo blanco para el contenedor principal */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #000000; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 100px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button:hover {
+    background-color: #ff0707; /* Color de fondo azul más oscuro al pasar el mouse */
+}
+
+/* Estilos para el cuadro de resultado */
+#resultado {
+    margin-top: 20px; /* Espaciado superior */
+    background-color: #966e6e; /* Color de fondo gris claro */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.1); /* Sombra suave */
+}
+h1 {
+    font-size: 24px;
+    color: #333; /* Color de texto gris oscuro */
+    text-align: center;
+}
+label {
+    display: block; /* Hace que las etiquetas sean bloques para que estén en una línea nueva */
+    margin-bottom: 5px; /* Espaciado inferior entre etiquetas */
+    font-weight: bold; /* Hace que las etiquetas sean negritas */
+}
+.swal-title {
+    color: #333; /* Color de texto gris oscuro */
+}
+
+.swal-text {
+    color: #555; /* Color de texto gris */
+}
+button:active {
+    background-color: #004080; /* Color de fondo azul más oscuro al hacer clic */
+}
